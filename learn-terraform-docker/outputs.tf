@@ -9,5 +9,5 @@ output "image_id" {
 }
 
 output "container_name" {
-    value     = docker_container.nginx.name
+  value = docker_container.nginx.name
 }
